@@ -2726,7 +2726,7 @@ h6 {
       color: #ffffff;
       cursor: pointer; }
   .single_portfolio:hover .overlay {
-    background: rgba(77, 87, 222, 0.5); }
+    background: rgba(222, 171, 77, 0.5); }
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
@@ -2837,7 +2837,7 @@ h6 {
   color: #ffffff; }
 
 .subscription_box {
-  background: url(../img/subscribe-bg.png) no-repeat center;
+  /*background: url(../img/subscribe-bg.png) no-repeat center;*/
   padding: 150px 0px; }
   @media (max-width: 767px) {
     .subscription_box {
