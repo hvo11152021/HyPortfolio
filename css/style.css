@@ -95,6 +95,12 @@ button:focus {
     .section_gap_top {
       padding-top: 80px; } }
 
+.section_top_half {
+  padding-top: 100px; }
+  @media (max-width: 1199px) {
+    .section_top_half {
+      padding-top: 80px; } }
+
 .section_gap_bottom {
   padding-bottom: 200px; }
   @media (max-width: 1199px) {

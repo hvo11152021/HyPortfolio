@@ -12,29 +12,67 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
         <ul class="nav navbar-nav menu_nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}" onclick="scrollToSection('home_area')">Home</button>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}" onclick="scrollToSection('about_area')">About</button>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}" onclick="scrollToSection('portfolio_area')">Portfolio</button>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}" onclick="scrollToSection('contact_area')">Contact</button>
             </li>
-            <li class="nav-item submenu dropdown">
+        </ul>
+    </div>
+</div>
+</nav>`;
+
+/*
+<li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                  aria-expanded="false">Languages</a>
                 <ul class="dropdown-menu">
                     <li class="nav-item"><a class="nav-link" href="index.html">English</a></li>
                     <li class="nav-item"><a class="nav-link" href="index-vn.html">Vietnamese</a></li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-</div>
-</nav>`;
+            </li>*/
 
 let copyrightYear = new Date().getFullYear();
 
