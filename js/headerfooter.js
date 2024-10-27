@@ -50,7 +50,7 @@ let pageFooter = `<div class="row justify-content-center">
 </div>
 <div class="row footer_bottom justify-content-center">
 <p class="col-lg-8 col-sm-12 footer-text">
-    Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Hy Vo | &copy; 2022-` + copyrightYear + ` <script>document.write(new Date().getFullYear());</script> | Inspired by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    Content by Hy Vo | &copy; 2022-` + copyrightYear + ` <script>document.write(new Date().getFullYear());</script> | Template by <a href="https://colorlib.com/wp/template/satner/" target="_blank">Colorlib - Sir Satner</a>
 </p>
 </div>`;
 
