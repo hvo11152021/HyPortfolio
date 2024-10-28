@@ -45,7 +45,7 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
 	&:focus {
 		text-decoration: none;
 		outline: none;
-	}" onclick="scrollToSection('portfolio_area')">Portfolio</button>
+	}" onclick="scrollToSection('portfolio')">Portfolio</button>
             </li>
             <li class="nav-item">
                 <button class="nav-link" style="
