@@ -45,7 +45,7 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
 	&:focus {
 		text-decoration: none;
 		outline: none;
-	}" onclick="scrollToSection('brand_area')">Skills</button>
+	}" onclick="scrollToSection('brand_area')">Expriences</button>
             </li>
             <li class="nav-item">
                 <button class="nav-link" style="
@@ -58,6 +58,30 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
 		text-decoration: none;
 		outline: none;
 	}" onclick="scrollToSection('portfolio')">Portfolio</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}" onclick="scrollToSection('feature_area')">Skills</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}" onclick="scrollToSection('testimonial_area')">Inpirators</button>
             </li>
             <li class="nav-item">
                 <button class="nav-link" style="
@@ -93,7 +117,7 @@ let pageFooter = `<div class="row justify-content-center">
     <div class="footer_top flex-column">
         <div class="footer_social">
             <a href="https://www.facebook.com/profile.php?id=100009867310233"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/hy-vo-8a0843227/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/hvo11152021"><i class="fa fa-github"></i></a>
         </div>
     </div>
 </div>
