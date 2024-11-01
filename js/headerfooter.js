@@ -45,6 +45,18 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
 	&:focus {
 		text-decoration: none;
 		outline: none;
+	}" onclick="scrollToSection('brand_area')">Skills</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" style="
+    border: none; 
+    background: transparent;
+    text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		outline: none;
 	}" onclick="scrollToSection('portfolio')">Portfolio</button>
             </li>
             <li class="nav-item">
