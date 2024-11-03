@@ -2773,6 +2773,10 @@ h6 {
     .portfolio_details_inner .portfolio_right_text .list li i {
       color: #f1cd09; }
 
+.text-hover-underline:hover {
+    text-decoration: underline;
+}
+
 /* End Portfolio Area css
 ============================================================================================ */
 /* Start Testimonial Area css

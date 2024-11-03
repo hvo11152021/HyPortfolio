@@ -124,7 +124,7 @@ let pageFooter = `<div class="row justify-content-center">
 </div>
 <div class="row footer_bottom justify-content-center">
 <p class="col-lg-8 col-sm-12 footer-text">
-    &copy; 2022-` + copyrightYear + ` <script>document.write(new Date().getFullYear());</script> | Template by <a href="https://colorlib.com/wp/aigars-silkalns/" target="_blank">Aigars Silkalns</a>
+    &copy; 2022-` + copyrightYear + ` <script>document.write(new Date().getFullYear());</script> | Inspired by <a href="https://colorlib.com/wp/aigars-silkalns/" target="_blank">Aigars Silkalns</a>
 </p>
 </div>`;
 
