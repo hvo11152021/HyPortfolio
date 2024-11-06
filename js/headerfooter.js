@@ -95,6 +95,9 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
 		outline: none;
 	}" onclick="scrollToSection('contact_area')">Contact</button>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
         </ul>
     </div>
 </div>
