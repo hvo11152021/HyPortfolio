@@ -12,6 +12,9 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
         <ul class="nav navbar-nav menu_nav justify-content-end">
             <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
                 <button class="nav-link" style="
     border: none; 
     background: transparent;
@@ -94,9 +97,6 @@ let pageHeader = `<nav class="navbar navbar-expand-lg navbar-light">
 		text-decoration: none;
 		outline: none;
 	}" onclick="scrollToSection('contact_area')">Contact</button>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
             </li>
         </ul>
     </div>
